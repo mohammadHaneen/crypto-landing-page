@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css" />
+    <style>
+      body {
+        margin: 0;
+      }
+      .layout {
+        position: relative;
+      }
+      .h-scroll-c::-webkit-scrollbar {
+        display: none;
+      }
+      * {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .h-scroll-c {
+        position: absolute;
+        width: 500px;
+        height: 100vw;
+        transform: rotate(-90deg) translateY(-500px);
+        transform-origin: top right;
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+      .h-scroll-c .card {
+        position: relative;
+        width: 100%;
+        height: 500px;
+        margin: 100px 0;
+        padding: 15px;
+        transform: rotate(-90deg);
+        text-align: center;
+        vertical-align: middle;
+      }
+      .card-c{
+        border: 1px solid black;
+        border-radius: 2vw;
+        transform: rotate(-180deg) !important;
+        padding: 10px;
+      }
+      .slider-img-card {
+        width: 330px;
+        height: 293px;
+        margin: 0 auto;
+      }
+      .slider-img-card img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="h-scroll-c">
+        <div class="card">
+          <div class="card-c">
+            <div class="slider-img-card">
+              <img src="../assets/slider-img-1.png" alt="" />
+            </div>
+            <div class="slider-text">
+              <p>Open an account in under 10 minutes</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-c">
+            <div class="slider-img-card">
+              <img src="../assets/slider-img-1.png" alt="" />
+            </div>
+            <div class="slider-text">
+              <p>Open an account in under 10 minutes</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-c">
+            <div class="slider-img-card">
+              <img src="../assets/slider-img-1.png" alt="" />
+            </div>
+            <div class="slider-text">
+              <p>Open an account in under 10 minutes</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-c">
+            <div class="slider-img-card">
+              <img src="../assets/slider-img-1.png" alt="" />
+            </div>
+            <div class="slider-text">
+              <p>Open an account in under 10 minutes</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-c">
+            <div class="slider-img-card">
+              <img src="../assets/slider-img-1.png" alt="" />
+            </div>
+            <div class="slider-text">
+              <p>Open an account in under 10 minutes</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/fontawesome/all.min.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="./js/app.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.10/fullpage.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header_c">
+        <nav>
+          <div class="nav_bar">
+            <ul class="nav_list">
+              <a href="" class="logo">
+                <svg
+                  width="90"
+                  height="27"
+                  viewBox="0 0 90 27"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.7468 17.1983C16.185 18.8032 16.5605 20.3877 16.5911 20.8678H16.6857C16.6857 20.3877 17.0612 18.7755 17.4367 17.1633L19.7538 8.38281H23.3852L18.4075 25.9087H15.0264L12.5535 17.1283C12.1154 15.5861 11.7399 14.0424 11.7399 13.5624H11.6147C11.6147 14.0424 11.2392 15.5861 10.8317 17.1283L8.32818 25.9087H4.97773L0 8.38281H3.66339L5.97914 17.1983C6.38663 18.8032 6.73153 20.4213 6.73153 20.9013H6.8567C6.8567 20.4213 7.23223 18.8091 7.70097 17.2319L10.2058 8.38281H13.2114L15.7468 17.1983Z"
+                    fill="#0B1E5B"
+                  ></path>
+                  <path
+                    d="M39.5291 17.9555H28.0023C28.2819 21.2821 30.0784 22.8433 32.4953 22.8433C34.2611 22.8433 35.7179 22.1984 36.7406 20.5686L39.1256 22.7411C37.5156 25.1179 35.0667 26.0969 32.4673 26.0969C27.8199 26.0969 24.5347 22.4639 24.5347 17.0334C24.5347 11.6029 27.7306 8.00195 32.1877 8.00195C36.4956 8.00195 39.5624 11.6014 39.5624 16.9312C39.5681 17.272 39.5579 17.6129 39.5318 17.9526L39.5291 17.9555ZM28.0955 15.2738H36.0282C35.6287 12.4214 34.1372 11.1316 32.1544 11.1316C29.9865 11.1316 28.5296 12.5571 28.0955 15.2738Z"
+                    fill="#0B1E5B"
+                  ></path>
+                  <path
+                    d="M46.7011 25.7292C43.8194 25.7292 42.3066 23.7945 42.3066 20.8064V0.267578H45.745V20.5686C45.745 21.7913 46.2097 22.4653 47.295 22.4653H48.5029V25.7248L46.7011 25.7292Z"
+                    fill="#0B1E5B"
+                  ></path>
+                  <path
+                    d="M65.2102 8.38135H61.7705V25.7293H65.2102V8.38135Z"
+                    fill="#0B1E5B"
+                  ></path>
+                  <path
+                    d="M68.3726 17.0392C68.3726 11.7094 71.8122 8.00928 76.4597 8.00928C81.1072 8.00928 84.5469 11.7079 84.5469 17.0392C84.5469 22.4041 81.1072 26.1042 76.4597 26.1042C71.8122 26.1042 68.3726 22.4027 68.3726 17.0392ZM81.0446 17.0392C81.0446 13.4748 79.0937 11.4045 76.4597 11.4045C73.8257 11.4045 71.9054 13.4748 71.9054 17.0392C71.9054 20.6387 73.8257 22.7426 76.4597 22.7426C79.0937 22.7426 81.0446 20.6372 81.0446 17.0392Z"
+                    fill="#0B1E5B"
+                  ></path>
+                  <path
+                    d="M58.7272 11.4713V8.38111H55.1318V2.6792H51.6934V8.38111H48.7505V11.4713H51.6934V20.0928C51.6934 23.488 53.4246 25.729 56.6818 25.729H58.7272V22.4695H57.0534C55.7217 22.4695 55.1331 21.5533 55.1331 19.8564V11.4713H58.7272Z"
+                    fill="#0B1E5B"
+                  ></path>
+                  <path
+                    d="M86.1064 24.2644C86.1064 23.0169 86.9547 22.2334 88.0666 22.2334C89.1533 22.2334 90.0015 23.0169 90.0015 24.2644C90.0015 25.5119 89.1533 26.2676 88.0666 26.2676C86.9547 26.2676 86.1064 25.5133 86.1064 24.2644Z"
+                    fill="#0B1E5B"
+                  ></path>
+                </svg>
+              </a>
+              <li class="nav_items">
+                <a href="#overview"><span>About</span></a>
+              </li>
+              <li class="nav_items">
+                <a href="#contact"><span>Contact</span></a>
+              </li>
+              <li class="nav_items">
+                <a href="#"
+                  ><span
+                    ><i class="fa-thin fa-globe"></i> En
+                    <i class="fa-thin fa-angle-down"></i></span
+                ></a>
+                <div class="dropdown_menu">
+                  <span>English</span>
+                  <span>عربي</span>
+                </div>
+              </li>
+            </ul>
+            <a href="#" class="d-btn"><span>Download</span></a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="grid">
+            <div class="right_c hero-col col">
+              <div class="hero_header_text">
+                <h1>
+                  <span>More ways</span>
+                  <span>to grow</span>
+                  <span>your money</span>
+                </h1>
+              </div>
+              <div class="hero_text">
+                <p>
+                  Want to expand your reach? Get access to American and crypto
+                  markets with a multi-currency account
+                </p>
+              </div>
+              <div class="hero_btn_c">
+                <a href="#" class="hero_btn" id="hero_btn">
+                  <span class="logo">
+                    <i class="fa-brands fa-apple fa-2xl"></i>
+                  </span>
+                  <span class="btn_title">
+                    <b>Get on the</b>
+                    <br />
+                    <span>App Store</span>
+                  </span>
+                </a>
+
+                <a href="#" class="hero_btn" id="hero_btn">
+                  <span class="logo google">
+                    <i class="fa-brands fa-google-play fa-2xl"></i>
+                  </span>
+                  <span class="btn_title">
+                    <b>Get on the</b>
+                    <br />
+                    <span>App Store</span>
+                  </span>
+                </a>
+              </div>
+              <div class="hero-img" id="hero-img">
+                <img src="./assets/hero_figure_img.png" alt="" />
+              </div>
+            </div>
+            <div class="left_c hero-col col">
+              <div class="hero_video">
+                <div class="video_c">
+                  <video
+                    autoplay
+                    loop
+                    src="./assets/homepage_video_one.mp4"
+                    type="video/mp4"
+                  ></video>
+                </div>
+                <div class="video_c">
+                  <video
+                    autoplay
+                    loop
+                    src="./assets/Homepage_video_two.mp4"
+                    type="video/mp4"
+                  ></video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="roll-animation">
+        <div class="roll-items">
+          <div class="roll-item">Depósito</div>
+          <div class="roll-item">Inversión</div>
+          <div class="roll-item">Ganancias</div>
+          <div class="roll-item">Ahorros</div>
+          <div class="roll-item">Depósito</div>
+          <div class="roll-item">Inversión</div>
+          <div class="roll-item">Ganancias</div>
+          <div class="roll-item">Ahorros</div>
+          <div class="roll-item">Depósito</div>
+          <div class="roll-item">Inversión</div>
+          <div class="roll-item">Ganancias</div>
+          <div class="roll-item">Ahorros</div>
+          <div class="roll-item">Depósito</div>
+          <div class="roll-item">Inversión</div>
+          <div class="roll-item">Ganancias</div>
+          <div class="roll-item">Ahorros</div>
+        </div>
+      </section>
+      <section class="testimonials">
+        <div class="container">
+          <div class="grid">
+            <div class="testimonial-col col -right">
+              <div class="tags-list">
+                <span>Why</span>
+                <span>Weltio</span>
+              </div>
+              <div class="content">
+                <div class="header">
+                  <h2>
+                    <span>Keep your money</span>
+                    <span>in USD safely</span>
+                  </h2>
+                </div>
+                <div class="description">
+                  <p>
+                    Protect your money from local depreciation! Get access to a
+                    USD account in the United States. Regulated by FINRA and
+                    SIPC, your money protected for up to USD $500,000
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-col col -left">
+              <div class="card">
+                <div class="card-title">
+                  <span>AHORROS</span>
+                  <span>$27,091.4 USD </span>
+                </div>
+                <div class="card-tags">
+                  <span class="tag v1">Depositar</span>
+                  <span class="tag v2">Invertir</span>
+                </div>
+              </div>
+              <div class="img-card">
+                <div class="card-icon">
+                  <img src="./assets/img-card-1.png" alt="" />
+                </div>
+                <div class="card-logo">
+                  <img src="./assets/img-card-2.png" alt="" />
+                </div>
+              </div>
+              <div class="video-c">
+                <video
+                  autoplay
+                  loop
+                  src="./assets/welito-v-1.mp4"
+                  type="video/mp4"
+                ></video>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="grid">
+            <div class="testimonial-col col -right">
+              <div class="tags-list">
+                <span>Why</span>
+                <span>Weltio</span>
+              </div>
+              <div class="content">
+                <div class="header">
+                  <h2>
+                    <span>Keep your money</span>
+                    <span>in USD safely</span>
+                  </h2>
+                </div>
+                <div class="description">
+                  <p>
+                    Protect your money from local depreciation! Get access to a
+                    USD account in the United States. Regulated by FINRA and
+                    SIPC, your money protected for up to USD $500,000
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-col col -left">
+              <div class="card">
+                <div class="card-title">
+                  <span>AHORROS</span>
+                  <span>$27,091.4 USD </span>
+                </div>
+                <div class="card-tags">
+                  <span class="tag v1">Depositar</span>
+                  <span class="tag v2">Invertir</span>
+                </div>
+              </div>
+              <div class="img-card">
+                <div class="card-icon">
+                  <img src="./assets/img-card-1.png" alt="" />
+                </div>
+                <div class="card-logo">
+                  <img src="./assets/img-card-2.png" alt="" />
+                </div>
+                <div class="card-logo"></div>
+              </div>
+              <div class="video-c">
+                <video
+                  autoplay
+                  loop
+                  src="./assets/welito-v-2.mp4"
+                  type="video/mp4"
+                ></video>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="grid">
+            <div class="testimonial-col col -right">
+              <div class="tags-list">
+                <span>Why</span>
+                <span>Weltio</span>
+              </div>
+              <div class="content">
+                <div class="header">
+                  <h2>
+                    <span>Keep your money</span>
+                    <span>in USD safely</span>
+                  </h2>
+                </div>
+                <div class="description">
+                  <p>
+                    Protect your money from local depreciation! Get access to a
+                    USD account in the United States. Regulated by FINRA and
+                    SIPC, your money protected for up to USD $500,000
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-col col -left">
+              <div class="card v3 v3I">
+                <div class="card-title">
+                  <span>AHORROS</span>
+                  <span>$4390.5 USD</span>
+                  <span>Hoy +12.0 <strong>+25%</strong></span>
+                </div>
+                <div class="card-tags">
+                  <span class="tag v1">Depositar</span>
+                  <span class="tag v2">Invertir</span>
+                </div>
+              </div>
+              <div class="card v3 v3II">
+                <div class="title">
+                  <span>Stock</span>
+                </div>
+                <div class="nums">
+                  <span>$48.15</span>
+                  <span>+0.4%</span>
+                </div>
+              </div>
+              <div class="video-c">
+                <video
+                  autoplay
+                  loop
+                  src="./assets/welito-v-3.mp4"
+                  type="video/mp4"
+                ></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="overview" id="overview">
+        <div class="overview-content">
+          <div class="container">
+            <h2 class="header">
+              Invest
+              <img
+                src="https://weltio.com/wp-content/themes/weltio/assets/img/home/overview/3.png"
+                srcset="
+                  https://weltio.com/wp-content/themes/weltio/assets/img/home/overview/3@2x.png 2x
+                "
+                loading="eager"
+                alt=""
+              />
+              <br />
+              <img
+                src="https://weltio.com/wp-content/themes/weltio/assets/img/home/overview/4.png"
+                srcset="
+                  https://weltio.com/wp-content/themes/weltio/assets/img/home/overview/4@2x.png 2x
+                "
+                loading="eager"
+                alt=""
+              />
+              with ease
+            </h2>
+          </div>
+        </div>
+      </section>
+      <section class="screenshot">
+        <div class="container">
+          <div class="screen-header">
+            <h2>
+              Crypto investing – <br />
+              simplified
+            </h2>
+            <p>
+              Simple, elegant, and secure platform to <br />
+              build your crypto portfolio
+            </p>
+          </div>
+          <div class="screen-img">
+            <div class="screen--img">
+              <img src="./assets/screenshot-img.jpeg" alt="" />
+            </div>
+          </div>
+          <div
+            class="screen-tags"
+            data-aos="zoom-in"
+            data-aos-offset="500"
+            data-aos-delay="300"
+            data-aos-duration="600"
+          >
+            <div class="tags-c">
+              <div class="tag -t1">
+                <img src="./assets/screenshot-1.png" alt="" />
+              </div>
+              <div class="tag -t2">
+                <img src="./assets/screenshot-2.png" alt="" />
+              </div>
+              <div class="tag -t3">
+                <img src="./assets/screenshot-3.png" alt="" />
+              </div>
+              <div class="tag -t4">
+                <img src="./assets/screenshot-4.png" alt="" />
+              </div>
+              <div class="tag -t5">
+                <img src="./assets/screenshot-5.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="offer-content">
+        <div class="container">
+          <div class="offer-figure">
+            <div class="offer-images">
+              <div class="offer-img v1">
+                <img src="./assets/offer-img-1.png" alt="" />
+              </div>
+              <div class="offer-img v2">
+                <img src="./assets/offer-img-2.png" alt="" />
+              </div>
+            </div>
+            <div
+              class="offer-tags"
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="200"
+              data-aos-duration="600"
+              data-aos-easing="ease-in-out"
+            >
+              <span>Aeroespace</span>
+              <span>Crypto</span>
+              <span>Ethereum</span>
+              <span>Daily Top Movers</span>
+              <span>Bitcoin Family</span>
+              <span>Altcoins</span>
+              <span>IPO Access</span>
+              <span>ETFs</span>
+            </div>
+            <div
+              class="offer-card"
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-delay="200"
+              data-aos-duration="600"
+              data-aos-easing="ease-in-out"
+            >
+              <div class="offer-card-stats">
+                <span class="card-stat v1">ETFs</span>
+                <span class="card-stat v2">Mi efectivo</span>
+                <span class="card-stat v3">Cryspanto</span>
+                <span class="card-stat v4">Acciones</span>
+                <span class="card-stat v5">Ahorros</span>
+              </div>
+              <div class="card-stat-info">
+                <figure>
+                  <img src="./assets/images/offer-card-img.png" alt="" />
+                </figure>
+                <span>10%</span>
+              </div>
+            </div>
+          </div>
+          <div class="offer-content">
+            <div class="offer-header">
+              <h2>Create your investment portfolio today</h2>
+            </div>
+            <div class="offer-description">
+              <p>
+                Investing should be for everyone, not just the elite. Get
+                started with Weltio today, and build your future
+              </p>
+            </div>
+            <div class="offer-btn">
+              <a href="#" class="hero_btn" id="hero_btn">
+                <span class="logo">
+                  <i class="fa-brands fa-apple fa-2xl"></i>
+                </span>
+                <span class="btn_title">
+                  <b>Get on the</b>
+                  <br />
+                  <span>App Store</span>
+                </span>
+              </a>
+
+              <a href="#" class="hero_btn" id="hero_btn">
+                <span class="logo google">
+                  <i class="fa-brands fa-google-play fa-2xl"></i>
+                </span>
+                <span class="btn_title">
+                  <b>Get on the</b>
+                  <br />
+                  <span>App Store</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="outro" id="contact">
+        <div class="container">
+          <div class="grid">
+            <div class="outro-col col -left">
+              <div class="outro-header">
+                <h2>Any doubts? We’ve got you covered</h2>
+              </div>
+              <div class="outro-description">
+                <p>Email us and we’ll get you to the right person</p>
+              </div>
+              <div class="outro-email">
+                <div class="outro-item">
+                  <div class="outro-icon">
+                    <i style="color: red" class="fa-thin fa-heart fa-2x"></i>
+                  </div>
+                  <div class="outro-text">
+                    <span>New to Weltio?</span>
+                    <span><a href="hola@weltio.com">hola@weltio.com</a></span>
+                  </div>
+                </div>
+                <div class="outro-item">
+                  <div class="outro-icon">
+                    <i
+                      style="color: green"
+                      class="fa-thin fa-message-question fa-2x"
+                    ></i>
+                  </div>
+                  <div class="outro-text">
+                    <span>Need support?</span>
+                    <span>
+                      <a href="soporte@weltio.com">soporte@weltio.com</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="outro-col col -right">
+              <figure>
+                <div class="img-c">
+                  <img src="./assets/outro-svg.png" alt="" />
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="grid">
+            <div class="footer-col col -left">
+              <div class="logo">
+                <a href="#">
+                  <svg
+                    width="90"
+                    height="27"
+                    viewBox="0 0 90 27"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.7468 17.1983C16.185 18.8032 16.5605 20.3877 16.5911 20.8678H16.6857C16.6857 20.3877 17.0612 18.7755 17.4367 17.1633L19.7538 8.38281H23.3852L18.4075 25.9087H15.0264L12.5535 17.1283C12.1154 15.5861 11.7399 14.0424 11.7399 13.5624H11.6147C11.6147 14.0424 11.2392 15.5861 10.8317 17.1283L8.32818 25.9087H4.97773L0 8.38281H3.66339L5.97914 17.1983C6.38663 18.8032 6.73153 20.4213 6.73153 20.9013H6.8567C6.8567 20.4213 7.23223 18.8091 7.70097 17.2319L10.2058 8.38281H13.2114L15.7468 17.1983Z"
+                      fill="#0B1E5B"
+                    ></path>
+                    <path
+                      d="M39.5291 17.9555H28.0023C28.2819 21.2821 30.0784 22.8433 32.4953 22.8433C34.2611 22.8433 35.7179 22.1984 36.7406 20.5686L39.1256 22.7411C37.5156 25.1179 35.0667 26.0969 32.4673 26.0969C27.8199 26.0969 24.5347 22.4639 24.5347 17.0334C24.5347 11.6029 27.7306 8.00195 32.1877 8.00195C36.4956 8.00195 39.5624 11.6014 39.5624 16.9312C39.5681 17.272 39.5579 17.6129 39.5318 17.9526L39.5291 17.9555ZM28.0955 15.2738H36.0282C35.6287 12.4214 34.1372 11.1316 32.1544 11.1316C29.9865 11.1316 28.5296 12.5571 28.0955 15.2738Z"
+                      fill="#0B1E5B"
+                    ></path>
+                    <path
+                      d="M46.7011 25.7292C43.8194 25.7292 42.3066 23.7945 42.3066 20.8064V0.267578H45.745V20.5686C45.745 21.7913 46.2097 22.4653 47.295 22.4653H48.5029V25.7248L46.7011 25.7292Z"
+                      fill="#0B1E5B"
+                    ></path>
+                    <path
+                      d="M65.2102 8.38135H61.7705V25.7293H65.2102V8.38135Z"
+                      fill="#0B1E5B"
+                    ></path>
+                    <path
+                      d="M68.3726 17.0392C68.3726 11.7094 71.8122 8.00928 76.4597 8.00928C81.1072 8.00928 84.5469 11.7079 84.5469 17.0392C84.5469 22.4041 81.1072 26.1042 76.4597 26.1042C71.8122 26.1042 68.3726 22.4027 68.3726 17.0392ZM81.0446 17.0392C81.0446 13.4748 79.0937 11.4045 76.4597 11.4045C73.8257 11.4045 71.9054 13.4748 71.9054 17.0392C71.9054 20.6387 73.8257 22.7426 76.4597 22.7426C79.0937 22.7426 81.0446 20.6372 81.0446 17.0392Z"
+                      fill="#0B1E5B"
+                    ></path>
+                    <path
+                      d="M58.7272 11.4713V8.38111H55.1318V2.6792H51.6934V8.38111H48.7505V11.4713H51.6934V20.0928C51.6934 23.488 53.4246 25.729 56.6818 25.729H58.7272V22.4695H57.0534C55.7217 22.4695 55.1331 21.5533 55.1331 19.8564V11.4713H58.7272Z"
+                      fill="#0B1E5B"
+                    ></path>
+                    <path
+                      d="M86.1064 24.2644C86.1064 23.0169 86.9547 22.2334 88.0666 22.2334C89.1533 22.2334 90.0015 23.0169 90.0015 24.2644C90.0015 25.5119 89.1533 26.2676 88.0666 26.2676C86.9547 26.2676 86.1064 25.5133 86.1064 24.2644Z"
+                      fill="#0B1E5B"
+                      style="transform-origin: 0px 0px 0px"
+                      data-svg-origin="88.05395126342773 26.26759910583496"
+                      transform="matrix(1,0,0,1,0,-0.24036)"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+              <div class="social">
+                <a class="icon" href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a class="icon" href="#">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="icon" href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+            <div class="footer-col col -right">
+              <div class="footer-lists">
+                <div class="footer-list">
+                  <h2 class="ft-list-header">Product</h2>
+                  <p class="ft-list-item"><a href="#">Invest</a></p>
+                  <p class="ft-list-item"><a href="#">Crypto</a></p>
+                </div>
+                <div class="footer-list">
+                  <h2 class="ft-list-header">Product</h2>
+                  <p class="ft-list-item"><a href="#">Legal</a></p>
+                  <p class="ft-list-item"><a href="#">Privacy Policy</a></p>
+                  <p class="ft-list-item"><a href="#">Terms of Use</a></p>
+                </div>
+                <div class="footer-list">
+                  <h2 class="ft-list-header">Product</h2>
+                  <p class="ft-list-item"><a href="#">Who we are</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-brief">
+            <p>Weltio LLC (“Weltio”) is a Technology Company.</p>
+            <p>
+              Brokerage and clearing services are provided by Alpaca Securities
+              LLC (“Alpaca”), a FINRA member, a wholly-owned subsidiary of
+              AlpacaDB, Inc. Clearing services are provided by Velox Clearing
+              LLC (Velox) and Vision Financial Markets LLC (Vision). All three
+              are members of the Securities Investor Protection Corporation
+              (SIPC), which protects securities customers of its members up to
+              USD $500,000 (including USD $250,000 for claims for cash) per
+              customer. Explanatory brochure available upon request or at
+              www.sipc.org.
+            </p>
+            <p>
+              View Alpaca’s disclosures at: https://alpaca.markets/disclosures
+            </p>
+            <p>
+              Alpaca and Weltio are not affiliated and neither are responsible
+              for the liabilities of the other.
+            </p>
+            <p>Technology is offered by Weltio.</p>
+            <p>
+              Weltio is a trading name of Weltio LLC. The information provided
+              by Weltio does not constitute advice or a recommendation to buy,
+              sell, or hold securities. All investments involve risk; the past
+              performance of a security or financial product does not guarantee
+              future results or returns. With any investment in securities or
+              financial products, there is always a risk of losing money.
+              Investors should be aware that system response, execution price,
+              speed, liquidity, market data, and account access times are
+              affected by many factors, including market volatility, size and
+              type of order, market conditions, system performance, and other
+              factors. These risks are to be assumed by the customer.
+            </p>
+            <p>
+              Trademarks and logos are the property of their respective owners
+              and do not represent endorsements of any kind. Unless otherwise
+              noted, Weltio and its affiliates are not partners, affiliates, or
+              licensees of these companies.
+            </p>
+            <p>
+              Content, news, research, tools, market data and securities symbols
+              are for educational and illustration purposes only and are not
+              substitutes for professional advice. All information provided is
+              provided in good faith, however we make no representation or
+              warranty of any kind, express or implied, regarding the accuracy,
+              adequacy, validity, reliability, availability or completeness of
+              any information on this website, our Weltio mobile application or
+              our associated social media pages.
+            </p>
+            <p>
+              For further details see our Legal Disclosures. By using this
+              website, you accept our Terms of Use and Privacy Policy.
+            </p>
+            <p>© Copyright 2022, Weltio LLC. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Start Gsap & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
+    <!--
+    ScrollSmoother.min.js is a Club GreenSock perk which is not available on a CDN. Download it from your GreenSock account and include it locally like this:
+
+    <script src="/[YOUR_DIRECTORY]/ScrollSmoother.min.js"></script>
+
+    Sign up at https://greensock.com/club or try them for free on CodePen or CodeSandbox
+    -->
+
+    <!-- End Gsap & ScrollTrigger -->
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- AOS Animation -->
+
+    <!-- Full Page Scroll -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.10/fullpage.min.js"></script>
+    <!-- Full Page Scroll -->
+
+    <script>
+      // AOS Animation
+      AOS.init();
+      // Fullpage Scroll
+      new fullpage("#full-page", {
+        //options here
+        autoScrolling: true,
+        scrollHorizontally: true,
+        responsiveWidth: 0,
+        responsiveHeight: 0,
+      });
+      gsap.registrarPlugin(ScrollTrigger);
+      gsap.to("header", {
+      
+      })
+    </script>
+  </body>
+</html>
