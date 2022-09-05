@@ -82,7 +82,7 @@ a {
   .container,
   .footer .container,
   .hero .container {
-    padding: 0 20px !important;
+    padding: 0 20px 20px !important;
   }
   .grid {
     flex-direction: column;
@@ -399,7 +399,7 @@ video {
     display: none;
   }
   .hero_btn .logo {
-    margin-right: 20px !important;
+    margin-right: 10px !important;
 }
 }
 /* End hero */
@@ -443,11 +443,11 @@ video {
 }
 @media (max-width: 576px) {
   .roll-animation {
-    padding: 25px 0 40px;
+    padding: 60px 0 35px;
     overflow: hidden;
   }
   .roll-items {
-    rotate: -7deg;
+    rotate: -5deg;
   }
   .roll-item {
     font-size: 18px;
