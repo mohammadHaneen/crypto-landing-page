@@ -1398,6 +1398,7 @@ video {
   }
   .ft-list-item {
     font-size: 14px;
+    margin: 0 0 15px 0;
   }
   .footer-brief{
     margin: 35px 0 0 0;
